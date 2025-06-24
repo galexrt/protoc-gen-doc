@@ -594,7 +594,7 @@ func description(comment string) string {
 		return ""
 	}
 
-	return val
+	return strings.TrimSpace(val)
 }
 
 type orderedEnums []*Enum
